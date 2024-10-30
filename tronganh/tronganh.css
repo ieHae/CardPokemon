@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.header a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    font-size: 16px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.breadcrumbs {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #666;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.card-header button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-image img {
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.card-info {
+    max-width: 800px;
+    padding-left: 20px;
+}
+
+.price-section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.price-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.price-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-list div {
+    text-align: center;
+    width: 30%; /* Điều chỉnh để các khối hiển thị đẹp */
+}
+
+.price-list div p {
+    margin: 5px 0;
+}
+
+.population-history {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.population-history h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #aaa;
+}

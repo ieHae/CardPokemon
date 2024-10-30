@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <metaname="description" content="Trang web bán thẻ pokemon chính hãng, Giá rẻ">
+    <metaname="keywwords" content="Pokemon, Thẻ pokemon, card pokemon, mua, bán thẻ pokemon, giá thẻ pokemon, check pokemon">
+    <title>Thẻ pokemon chính hãng</title>
+   <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="http://127.0.0.1:5500/index.html" class="logo">Haepoke</a>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/sets(bo).html">Bộ</a></li>
+                <li><a href="http://127.0.0.1:5500/sealed%20products(sanphamniemphong).html">Sản phẩm niêm phong</a></li>
+                <li><a href="http://127.0.0.1:5500/collection(bosuutap).html">Bộ sưu tập</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="sign-in-btn">Đăng nhập</button>
+                <button class="pro-btn">Nạp vip</button>
+            </div>
+        </nav>
+        <div class="logo-search">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzU4MHnQKL0CVrNTsnaZQ-H0g3LJOj1nItPw&s" alt="Pokedata Logo" class="logo-img">
+            <input type="text" placeholder="Tìm thẻ...." class="search-bar" id="searchInput">
+            <div id="searchResults"></div> 
+        </div>
+    </header>
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Hae Poke</h1>
+            <p>Những thẻ pokemon hot nhất hiện nay</p>
+            <a href="http://127.0.0.1:5500/xemngay.html#" class="banner-button">Xem ngay</a>
+        </div>
+        <div class="banner-image">
+            <img src="https://mktg-assets.tcgplayer.com/fit-in/1100x1100/filters:quality(75)/content/pokemon/_2024/SEP/24/PKMN-All-14-Pokemon-ex-from-Stellar-Crown-OG.jpg" alt="POKEMON">
+            <img src="https://mktg-assets.tcgplayer.com/fit-in/1100x1100/filters:quality(75)/content/pokemon/_2024/OCT/08/PKMN-Movers-Shakers-10082024-Opengraph.jpg" alt="POKEMON">
+        </div>
+    </div>
+    
+    <div class="card-container">
+        <div class="card">
+            <div class="image-container">
+                <a href="http://127.0.0.1:5500/tronganh/Teragapos.html" >
+                    <img src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/170.webp" alt="Terapagos">
+                </a>
+                <button class="popupBtn circle-button">+</button>
+            </div>
+            <h3>Terapagos</h3>
+            <p>Hệ Kim</p>
+        </div>
+    
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <div class="popup-header">
+                    <h3>Terapagos</h3>
+                </div>
+                <div class="form-group">
+                    <img id="card-image" src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/170.webp" alt="Card Image" style="width:100%; max-width:100px;">     
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Số lượng</label>
+                    <input type="number" id="số lượng" value="1" min="1">
+                </div>
+                <div class="form-group price-group">
+                    <label for="unit-price">Đơn giá (VN)</label>
+                    <input type="text" id="unit-price">
+                    <label for="use-market-price" class="checkbox-label">
+                        <input type="checkbox" id="use-market-price">
+                        Use market price
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="date">Ngày</label>
+                    <input type="date" id="date" value="2024-10-16">
+                </div>
+                <div class="form-actions">
+                    <button class="btn-primary">Thêm vào danh sách</button>
+                    <button class="btn-secondary">Thêm thẻ</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <a href="http://127.0.0.1:5500/tronganh/Squirtle.html" >
+                    <img src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/148.webp" alt="Squirtle">
+                </a>
+                <!-- Nút tròn popup ở góc phải trên ảnh -->
+                <button class="popupBtn circle-button">+</button>
+            </div>
+            <h3>Squirtle</h3>
+            <p>Hệ Nước</p>
+        </div>
+    
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <div class="popup-header">
+                    <h3>Squirtle</h3>
+                </div>
+                <div class="form-group">
+                    <img id="card-image" src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/148.webp" alt="Card Image" style="width:100%; max-width:100px;">     
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Số lượng</label>
+                    <input type="number" id="số lượng" value="1" min="1">
+                </div>
+                <div class="form-group price-group">
+                    <label for="unit-price">Đơn giá (VN)</label>
+                    <input type="text" id="unit-price">
+                    <label for="use-market-price" class="checkbox-label">
+                        <input type="checkbox" id="use-market-price">
+                        Use market price
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="date">Ngày</label>
+                    <input type="date" id="date" value="2024-10-16">
+                </div>
+                <div class="form-actions">
+                    <button class="btn-primary">Thêm vào danh sách</button>
+                    <button class="btn-secondary">Thêm thẻ</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <a href="http://127.0.0.1:5500/tronganh/Lacey.html" >
+                    <img src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/172.webp" alt="Lacey">
+                </a>
+                <!-- Nút tròn popup ở góc phải trên ảnh -->
+                <button class="popupBtn circle-button">+</button>
+            </div>
+            <h3>Lacey</h3>
+            <p>Người huấn luyện</p>
+        </div>
+    
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <div class="popup-header">
+                    <h3>Lacey</h3>
+                </div>
+                <div class="form-group">
+                    <img id="card-image" src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/172.webp" alt="Card Image" style="width:100%; max-width:100px;">     
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Số lượng</label>
+                    <input type="number" id="số lượng" value="1" min="1">
+                </div>
+                <div class="form-group price-group">
+                    <label for="unit-price">Đơn giá (VN)</label>
+                    <input type="text" id="unit-price">
+                    <label for="use-market-price" class="checkbox-label">
+                        <input type="checkbox" id="use-market-price">
+                        Use market price
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="date">Ngày</label>
+                    <input type="date" id="date" value="2024-10-16">
+                </div>
+                <div class="form-actions">
+                    <button class="btn-primary">Thêm vào danh sách</button>
+                    <button class="btn-secondary">Thêm thẻ</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <a href="http://127.0.0.1:5500/tronganh/Hydrapple.html" >
+                    <img src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/167.webp" alt="Hydrapple">
+                </a>
+                <!-- Nút tròn popup ở góc phải trên ảnh -->
+                <button class="popupBtn circle-button">+</button>
+            </div>
+            <h3>Hydrapple</h3>
+            <p>Hệ cỏ</p>
+        </div>
+    
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <div class="popup-header">
+                    <h3>Hydrapple</h3>
+                </div>
+                <div class="form-group">
+                    <img id="card-image" src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/167.webp" alt="Card Image" style="width:100%; max-width:100px;">     
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Số lượng</label>
+                    <input type="number" id="số lượng" value="1" min="1">
+                </div>
+                <div class="form-group price-group">
+                    <label for="unit-price">Đơn giá (VN)</label>
+                    <input type="text" id="unit-price">
+                    <label for="use-market-price" class="checkbox-label">
+                        <input type="checkbox" id="use-market-price">
+                        Use market price
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="date">Ngày</label>
+                    <input type="date" id="date" value="2024-10-16">
+                </div>
+                <div class="form-actions">
+                    <button class="btn-primary">Thêm vào danh sách</button>
+                    <button class="btn-secondary">Thêm thẻ</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <a href="http://127.0.0.1:5500/tronganh/Bulbasaur.html">
+                    <img src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/143.webp" alt="Bulbasaur">
+                </a>
+                <!-- Nút tròn popup ở góc phải trên ảnh -->
+                <button class="popupBtn circle-button">+</button>
+            </div>
+            <h3>Bulbasaur</h3>
+            <p>Hệ cỏ</p>
+        </div>
+    
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <div class="popup-header">
+                    <h3>TBulbasaur</h3>
+                </div>
+                <div class="form-group">
+                    <img id="card-image" src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/143.webp" alt="Card Image" style="width:100%; max-width:100px;">     
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Số lượng</label>
+                    <input type="number" id="số lượng" value="1" min="1">
+                </div>
+                <div class="form-group price-group">
+                    <label for="unit-price">Đơn giá (VN)</label>
+                    <input type="text" id="unit-price">
+                    <label for="use-market-price" class="checkbox-label">
+                        <input type="checkbox" id="use-market-price">
+                        Use market price
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="date">Ngày</label>
+                    <input type="date" id="date" value="2024-10-16">
+                </div>
+                <div class="form-actions">
+                    <button class="btn-primary">Thêm vào danh sách</button>
+                    <button class="btn-secondary">Thêm thẻ</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image-container">
+                <a href="http://127.0.0.1:5500/tronganh/Galvantula.html">
+                    <img src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/168.webp" alt="Galvantula">
+                </a>
+                <!-- Nút tròn popup ở góc phải trên ảnh -->
+                <button class="popupBtn circle-button">+</button>
+            </div>
+            <h3>Galvantula</h3>
+            <p>Hệ điện</p>
+        </div>
+    
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <div class="popup-header">
+                    <h3>Galvantula</h3>
+                </div>
+                <div class="form-group">
+                    <img id="card-image" src="https://pokemoncardimages.s3.us-east-2.amazonaws.com/images/Stellar+Crown/168.webp" alt="Card Image" style="width:100%; max-width:100px;">     
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Số lượng</label>
+                    <input type="number" id="số lượng" value="1" min="1">
+                </div>
+                <div class="form-group price-group">
+                    <label for="unit-price">Đơn giá (VN)</label>
+                    <input type="text" id="unit-price">
+                    <label for="use-market-price" class="checkbox-label">
+                        <input type="checkbox" id="use-market-price">
+                        Use market price
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="date">Ngày</label>
+                    <input type="date" id="date" value="2024-10-16">
+                </div>
+                <div class="form-actions">
+                    <button class="btn-primary">Thêm vào danh sách</button>
+                    <button class="btn-secondary">Thêm thẻ</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <main>
+        <section class="card-section">
+            <h2>Recent Sets</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/549.webp" alt="Stellar Crown">
+                    <p>Stellar Crown</p>
+                </div>
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/548.webp" alt="Shrouded Fable">
+                    <p>Shrouded Fable</p>
+                </div>
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/545.webp" alt="Twilight Masquerade">
+                    <p>Twilight Masquerade</p>
+                </div>
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/542.webp" alt="Temporal Forces">
+                    <p>Temporal Forces</p>
+                </div>
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/539.webp" alt="Paldean Fates">
+                    <p>Paldean Fates</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-section">
+            <h2>Vintage Sets</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/28.webp" alt="Base Set 1st Edition">
+                    <p>Base Set 1st Edition</p>
+                </div>
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/29.webp" alt="Base Set Shadowless">
+                    <p>Base Set Shadowless</p>
+                </div>
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/27.webp" alt="Base Set Unlimited">
+                    <p>Base Set Unlimited</p>
+                </div>
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/84.webp" alt="Jungle 1st Edition">
+                    <p>Jungle 1st Edition</p>
+                </div>
+                <div class="card">
+                    <img src="https://pokemonsetimages.s3.us-west-1.amazonaws.com/Sets/Set_Images/83.webp" alt="Jungle">
+                    <p>Jungle</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer">
+        Haepoke
+    </div>
+<script src="home.js"></script>
+</body>
+</html>
